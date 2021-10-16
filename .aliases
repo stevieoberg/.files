@@ -1,0 +1,7 @@
+alias config='/usr/bin/git --git-dir=/Users/dataz/.files/ --work-tree=/Users/dataz'
+alias zsc="vim ~/.zshrc"
+alias ll="ls -Gal"
+alias chrome="open -a Google\ Chrome"
+alias gs="git status"
+alias gc="git commit -m"
+alias ls="ls -Ga"
