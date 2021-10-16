@@ -28,3 +28,5 @@ if type _git &> /dev/null; then
 	complete -o default -o nospace -F _git g;
 fi;
 
+# START UP
+config s
