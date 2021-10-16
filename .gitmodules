@@ -1,0 +1,6 @@
+[submodule "dracula"]
+	path = dracula
+	url = https://github.com/dracula/vim.git
+[submodule "terminal-app"]
+	path = terminal-app
+	url = https://github.com/dracula/terminal-app.git
