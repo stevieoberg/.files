@@ -1,4 +1,4 @@
-alias config='/usr/bin/git --git-dir=/Users/dataz/.files/ --work-tree=/Users/dataz'
+alias config="/usr/bin/git --git-dir=$HOME/.files/ --work-tree=$HOME"
 alias zsc="vim ~/.zshrc"
 alias ll="ls -Gal"
 alias chrome="open -a Google\ Chrome"
