@@ -30,3 +30,4 @@ fi;
 
 # START UP
 config s
+export PATH="/usr/local/sbin:$PATH"
