@@ -22,7 +22,7 @@
 
 	# Show verbose output about tags, branches or remotes
 	tags = tag -l
-	branches = branch -a
+	branches = branch -va --sort==committerdate
 	remotes = remote -v
 
 	# List aliases
@@ -34,6 +34,9 @@
 	# Remove branches that have already been merged with main
 	# a.k.a. ‘delete merged’
 	dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+
+  # Undo last commit
+  undo = "reset HEAD~"
 
 
 [core]
@@ -74,5 +77,4 @@
 [user]
 	email = 8902773+stevieoberg@users.noreply.github.com
 	name = Stevie Oberg
-[commit]
-	gpgsign = true
+	initials = SO
