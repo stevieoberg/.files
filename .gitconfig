@@ -38,6 +38,8 @@
   # Undo last commit
   undo = "reset HEAD~"
 
+  new = "push -u origin HEAD"
+
 
 [core]
 	# Make `git rebase` safer on macOS
@@ -56,7 +58,7 @@
 
 
 [color "branch"]
-	current = yellow reverse
+	current = magenta reverse
 	local = yellow
 	remote = green
 
@@ -69,9 +71,9 @@
 
 
 [color "status"]
-	added = yellow
-	changed = green
-	untracked = cyan
+	added = green
+	changed = yellow
+	untracked = magenta
 [pull]
 	rebase = true
 [user]
