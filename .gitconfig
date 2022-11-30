@@ -75,6 +75,11 @@
 	changed = yellow
 	untracked = magenta
 
+[user]
+	email = 8902773+stevieoberg@users.noreply.github.com
+	name = Stevie Oberg
+	initials = SO
+
 [pull]
 	rebase = true
 
