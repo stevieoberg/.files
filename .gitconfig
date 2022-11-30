@@ -74,11 +74,9 @@
 	added = green
 	changed = yellow
 	untracked = magenta
+
 [pull]
 	rebase = true
-[user]
-	email = 8902773+stevieoberg@users.noreply.github.com
-	name = Stevie Oberg
-	initials = SO
+
 [push]
 	autoSetupRemote = true
