@@ -1,4 +1,5 @@
 export GPG_TTY=$(tty)
+eval "$(rbenv init - zsh)"
 
 CASE_SENSITIVE="true"
 plugins=(git)
