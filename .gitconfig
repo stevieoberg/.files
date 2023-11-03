@@ -40,6 +40,7 @@
 
   new = "push -u origin HEAD"
 
+  fixup = "commit --fixup"
 
 [core]
 	# Make `git rebase` safer on macOS
